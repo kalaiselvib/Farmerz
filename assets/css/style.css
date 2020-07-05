@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
+html,body{
+    overflow-x: hidden;
+    }
+    .card-footer{
+    background-color: transparent;
+    }
+    .section-heading, .card-header{
+        font-family: 'Kulim Park', sans-serif;
+    }
+    header{
+    background-color: #F3AA20;
+    }
+    .fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; 
+    }
+    header nav ul li a{
+    color: #222;
+    font-weight: 600;
+    margin: 0 20px;
+    }
+    .intro .carousel-item{
+        height: 80vh;
+    }
+    /**************************************ABOUT US ***********************************/
+    .about , .about .section-heading, .about .section-heading p, .item{
+    margin: 50px 0px;
+    }
+    .about .section-description{
+    width: 50%;
+    }
+    .about .items{
+    display: flex;
+    justify-content: space-between;
+    }
+    /**************************************BEST SELLERS ***********************************/
+    .best-sellers .items{
+    margin: 30px 50px;  
+    }
+    .best-sellers .card{
+    border: none;
+    cursor: pointer;
+    }
+   
+    .best-sellers .card img{
+    width: 100%;
+    border-radius: 10px;
+    }
+     /**************************************FULL RANGE ***********************************/
+     .full-range {
+         margin: 30px 50px;
+     }
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%; 
+       
+    }
+    .carousel-multi-item-2 .card img {
+     border-radius: 2px; 
+    }
+    .controls-top i{
+        font-size: 2rem;
+        position: relative;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%,-50%); 
+            
+    }
+    /**************************************COLLECTION ***********************************/
+    .collection .card-header{
+        background-color: rgba(92, 91, 91, 0.6);
+        color: #fff;
+    }
+    .collection .background{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+            height: 60vh;
+        object-fit: cover;
+    }
+    .veg-row{
+        background-image: url('https://images.pexels.com/photos/142520/pexels-photo-142520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');  
+    }
+    .fruits-row{
+        background-image: url('https://images.pexels.com/photos/890507/pexels-photo-890507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    }
+    .spices-row{
+        background-image: url('https://images.pexels.com/photos/1340116/pexels-photo-1340116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    }
+    
+   
+    @media screen  and (max-width:768px){
+        .header nav ul li a{
+            margin: 0 0px;
+        }
+        
+        .intro .carousel-item{
+            height: 50vh;
+        }      
+    /**************************************ABOUT US ***********************************/
+    .about, .about .section-heading, .about .section-heading p, .item{
+        margin: 30px 0px;
+    }
+    .about .section-description{
+    width: 100%;
+    padding: 0px 30px;
+    }
+    .about .items{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 2fr 2fr);
+    grid-template-rows: repeat(2);
+    }
+    /**************************************BEST SELLERS  ***********************************/
+    .best-sellers .items{
+    margin: 30px 30px;
+    }
+/**************************************FULL RANGE  ***********************************/
+    .carousel-multi-item-2 .col-md-3 {
+        float: none;
+        width: 70%;    
+        margin: 30px auto;  
+    }
+    /**************************************COLLECTION  ***********************************/ 
+    .fruits-row{
+        margin-bottom: 20px;
+    }
+    }
