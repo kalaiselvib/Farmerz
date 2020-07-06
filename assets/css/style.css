@@ -93,10 +93,14 @@ html,body{
     
    
     @media screen  and (max-width:768px){
-        .header nav ul li a{
+        header nav ul li a{
             margin: 0 0px;
         }
-        
+        header .name{
+            font-size: 14px;
+            font-weight: 500;
+            
+        }
         .intro .carousel-item{
             height: 50vh;
         }      
